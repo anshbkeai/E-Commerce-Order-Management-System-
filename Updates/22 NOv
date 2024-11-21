@@ -1,0 +1,21 @@
+Date   this is  the  22 Nov  to  just  be   updated   with the  things
+Project: [Your Project Name]
+Overview
+This project aims to implement a robust authentication and authorization mechanism using JWT (JSON Web Token) in a Spring Boot application.
+Current Status
+ * Completed Tasks:
+   * Created User class
+   * Implemented UserRepository and UserService
+   * Modified Spring Security configuration
+   * Implemented UserDetailsService in UserService
+ * Remaining Tasks:
+   * Create JWT service and filter
+   * Implement custom DaoAuthenticationProvider
+   * Obtain AuthenticationManager from configuration
+   * Implement API endpoints for token generation and verification
+   * Configure authorized and unauthorized URLs
+Next Steps
+Once the JWT implementation is complete, we will continue with the development of the following features:
+ * [Feature 1]
+ * [Feature 2]
+ * [Feature 3]

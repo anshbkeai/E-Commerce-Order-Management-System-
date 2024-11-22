@@ -1,0 +1,12 @@
+Current Status
+As of today, we've made significant progress on the following:
+ * User Controller:
+   * Implemented endpoints for user signup and login.
+   * Implemented security configuration for authentication and authorization.
+   * Created a JWT service to generate and validate tokens.
+   * Disabled CSRF and session-based authentication.
+Remaining Tasks:
+ * Token Validation Filter:
+   * Implement a filter to validate JWT tokens before processing requests.
+ * Order Service:
+   * Design and implement order creation, retrieval, and management functionalities.

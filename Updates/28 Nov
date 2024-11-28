@@ -1,0 +1,11 @@
+ * Invoice generation in PDF and internet formats
+ * Order management, including creation, release, and user ID association
+ * Inventory management using transactional properties and readable reads
+ * Order API for creation and release
+ * Database interactions and rollback mechanisms for error handling
+Future Work:
+ * Enhance transactional management for improved data consistency and integrity
+ * Optimize code for better performance and readability
+ * Implement robust security measures to protect sensitive data
+I am eager to continue working on the project and would appreciate your guidance on the proposed improvements.
+Thank you for your time and consideration.

@@ -8,17 +8,15 @@ To create a roadmap for building the **E-Commerce Order Management System** as p
 1. **Understand Requirements**:
    - Clarify expected features (e.g., order creation, inventory management, invoice generation).
    - Discuss scalability needs (e.g., concurrent users, number of products).
-   - Confirm deployment preferences (cloud, local, etc.).
+  
 
 2. **Document Functional Requirements**:
    - Feature list (e.g., APIs for products, orders, invoices).
-   - User roles (e.g., admin, customer).
    - Error handling and rollback conditions.
 
 3. **Document Non-Functional Requirements**:
    - Security (e.g., JWT, database encryption).
    - Performance (e.g., response times, handling large datasets).
-   - Scalability (e.g., support for distributed systems).
 
 4. **Prepare a Project Plan**:
    - Deliverables.
@@ -42,7 +40,6 @@ To create a roadmap for building the **E-Commerce Order Management System** as p
 - **Testing**: JUnit, Mockito, Postman.
 - **Build Tools**: Maven/Gradle.
 - **Version Control**: Git (GitHub or GitLab).
-- **Deployment**: Docker containers, AWS (Elastic Beanstalk, RDS).
 
 #### 3. **Database Design**:
 Design normalized tables with relationships:
@@ -106,27 +103,12 @@ public Invoice placeOrder(OrderDto orderDto) {
 }
 ```
 
-#### 4. **Concurrency Handling**:
-- Use **Optimistic Locking** (via `@Version` in JPA).
-- Implement retry mechanisms for concurrent update conflicts.
-
-#### 5. **API Documentation**:
-- Use **Swagger/OpenAPI** to document all APIs.
-
 ---
 
 ### **Phase 4: Testing**
-#### 1. **Unit Testing**:
-- Write tests for each service using JUnit and Mockito.
-- Ensure 100% coverage of critical methods (e.g., `placeOrder`, `generateInvoice`).
 
-#### 2. **Integration Testing**:
-- Test interactions between services using MockMvc and TestRestTemplate.
 
-#### 3. **Load Testing**:
-- Use tools like **JMeter** to simulate concurrent requests.
-
-#### 4. **Manual Testing**:
+#### 1. **Manual Testing**:
 - Test API workflows using **Postman**.
 
 ---
